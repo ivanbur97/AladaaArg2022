@@ -1,3 +1,49 @@
-.footer{
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    margin: 3px;
+    padding: 1px;
+}
+
+head{
+    margin: 1px;
+    padding: 1px;
+}
+
+body{
+background-color: azure;
+margin: 3px;
+    padding: 3px;
+}
+
+#conteiner{
+    width: 90%;
+    margin: 2px auto;
+}
+footer{
     background-color: blue;
+    display: flex;
+    flex-direction:column;
+    color: white;
+}
+
+header{
+    background-color:blue;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: white;
 }
