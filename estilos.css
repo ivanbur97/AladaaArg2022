@@ -42,8 +42,19 @@ footer{
 
 header{
     background-color:blue;
-    height: 100px;
+    height: 80px;
     width: 100%;
+    
+}
+
+header h1{
     text-align: center;
+    line-height: 200px;
     color: white;
+    border-bottom: 10px white;
+    font-size: 10px;
+}
+
+header img{
+    height: 80px;
 }
