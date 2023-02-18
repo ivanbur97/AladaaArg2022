@@ -223,8 +223,20 @@ article a{
     width: 50px;
     margin: 15px;
     border-radius: 25px;
-    box-shadow: 5px 5px 10px rgb(110, 111, 122);
 }
 
+.container-footer footer .redes-footer img:hover{
+    box-shadow: 5px 5px 10px rgb(150, 159, 255);
+}
 
+.container-footer h4{
+    text-align: center;
+    margin-top: 4px;
+    color: rgb(42, 42, 71);
+    font-weight: 500px;
+}
 
+.container-footer hr{
+    text-align: center;
+    color: rgb(0, 0, 73);
+}
