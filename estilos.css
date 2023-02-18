@@ -1,60 +1,25 @@
-*{
-    margin: 0px;
-    padding: 0px;
+
+
+#menu{
+
 }
 
-nav{
-    background-color: black;
-    color: white;
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-ul{
-    display: flex;
-    flex-direction: row;
+#menu ul li{
+    display: inline-block;
 }
 
-li{
-    margin: 3px;
-    padding: 1px;
+#menu ul li a{
+   color: white;
+   text-decoration: none;
 }
 
 head{
     margin: 1px;
     padding: 1px;
-}
-
-body{
-background-color: azure;
-margin: 3px;
-    padding: 3px;
-}
-
-#conteiner{
-    width: 90%;
-    margin: 2px auto;
-}
-footer{
-    background-color: blue;
-    display: flex;
-    flex-direction:column;
-    color: white;
-}
-
-header{
-    background-color:blue;
-    height: 80px;
-    width: 100%;
-    
-}
-
-header h1{
-    text-align: center;
-    line-height: 200px;
-    color: white;
-    border-bottom: 10px white;
-    font-size: 10px;
-}
-
-header img{
-    height: 80px;
 }
