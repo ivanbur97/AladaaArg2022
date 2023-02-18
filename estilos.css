@@ -71,6 +71,7 @@ header{
 
 .menu nav ul li a{
     color:  rgb(122, 122, 122);
+    font-size: 18px;
     transition: color 300ms;
 }
 
@@ -88,10 +89,41 @@ header{
 .container-cover{
     width: 100%;
     height: 400px;
-    position: relative;
     top: 80px; 
-    background-image: url(/Imagenes/IMG_20220921_091022.jpg);
+    position: relative;
+    background-image: url(/Imagenes/img-portada.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     
+}
+
+.container-cover::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 102, 219, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-info-cover{
+    max-width: 800px;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.container-info-cover h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px;
 }
