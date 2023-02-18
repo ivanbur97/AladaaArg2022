@@ -146,7 +146,7 @@ article{
     border-radius: 10px;
     max-width: 300px;
     background-color: rgb(171, 205, 250);
-    box-shadow: 10px 10px 10px grey;
+    
     position: relative;
 
     overflow: hidden;
@@ -190,3 +190,41 @@ article a{
     color: rgb(10, 0, 192);
     text-shadow: rgb(255, 255, 255) 1px 0 10px;
 }
+
+/*footer>*/
+
+.container-footer{
+    width: 100%;
+    padding: 40px 0px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.container-footer footer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-footer footer .logo-footer{
+    text-align: center;
+}
+
+.container-footer footer .logo-footer img{
+    width: 200px;
+}
+
+.container-footer footer .redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.container-footer footer .redes-footer img{
+    width: 50px;
+    margin: 15px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgb(110, 111, 122);
+}
+
+
+
