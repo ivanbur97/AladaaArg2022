@@ -135,5 +135,16 @@ header{
 .container-contenido{
     width: 1200px;
     margin: auto;
+    display: flex;
     margin-top: 80;
+}
+
+
+article{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 300px;
+    background-color: azure;
+    box-shadow: 0 4px 25px -22px rgb(18, 18, 131);
 }
