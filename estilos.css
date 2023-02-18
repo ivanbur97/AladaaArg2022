@@ -13,5 +13,73 @@ header{
     width: 100%;
     height: 80px;
     background: white;
-    box-shadow: rgb(18, 18, 131);
+    box-shadow: 0 4px 25px -22px rgb(18, 18, 131);
+    z-index: 2;
+}
+
+.header-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    height: 80px;
+}
+
+.menu{
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu nav{
+    height: 100%;
+}
+
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.menu nav ul li{
+    height: 100%;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu-select:before{
+    content: '';
+    width: 100%;
+        height: 4px;
+    background: rgb(0, 102, 219);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu nav ul li a{
+    color:  rgb(122, 122, 122);
+    transition: color 300ms;
+}
+
+.menu nav ul li a:hover{
+    color:  rgb(37, 75, 156);
+    font-weight: bolder;
+    transition: color 300ms;
+}
+
+.menu .text-menu-select{
+    color:  rgb(255, 252, 48);
 }
