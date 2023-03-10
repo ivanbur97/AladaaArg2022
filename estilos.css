@@ -148,17 +148,17 @@ header{
 .Editores{
     padding: 5px;
     margin: 10px;
-    border-color: blue;
     border: 2px;
-    border-radius: 3px;
+    background-color:  rgb(171, 205, 250);;
+    border-radius: 5px;
 }
 
 .Organizadora{
     padding: 5px;
     margin: 10px;
-    border-color: blue;
     border: 2px;
-    border-radius: 3px;
+    background-color:  rgb(171, 205, 250);;
+    border-radius: 5px;
 }
 
 .options_menu{
