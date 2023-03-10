@@ -209,26 +209,7 @@ article a{
     text-align: center;
 }
 
-.container-footer footer .logo-footer img{
-    width: 200px;
-}
 
-.container-footer footer .redes-footer{
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
-
-.container-footer footer .redes-footer img{
-    width: 50px;
-    margin: 15px;
-    border-radius: 25px;
-}
-
-.container-footer footer .redes-footer img:hover{
-    box-shadow: 5px 5px 10px rgb(150, 159, 255);
-
-}
 
 .container-footer h4{
     text-align: center;
