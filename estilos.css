@@ -129,11 +129,47 @@ header{
     text-shadow: rgb(14, 22, 68) 1px 0 10px;
 }
 
+/*Side bar*/
+.Presentacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+.menu_side{
+    width: 15%;
+    background-color:  rgb(0, 102, 219, 0.8);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+.Editores{
+    padding: 5px;
+    margin: 10px;
+    border-color: blue;
+    border: 2px;
+    border-radius: 3px;
+}
+
+.Organizadora{
+    padding: 5px;
+    margin: 10px;
+    border-color: blue;
+    border: 2px;
+    border-radius: 3px;
+}
+
+.options_menu{
+ color: white;
+    padding: 5px;
+    margin: 10px;
+}
 /*COntainer contenido articulos*/
 
 .container-contenido{
-    width: 1200px;
+    width: 100%;
     margin: auto;
     display: flex;
     margin-top: 80;
