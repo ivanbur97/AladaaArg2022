@@ -94,7 +94,7 @@ header{
 
 .container-cover{
     width: 100%;
-    height: 230px;
+    height: 200px;
     margin-top: 80px; 
     position: relative;
     background-image: url(./Imagenes/img-portada.jpg);
@@ -180,6 +180,7 @@ ul.tabs{
 	width: 20%;
 	background: #363636;
 	list-style: none;
+    border-radius: 20px;
 
 }
 
@@ -196,6 +197,8 @@ ul.tabs li a{
 
 .active{
 	background: #0984CC;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 ul.tabs li a .tab-text{
