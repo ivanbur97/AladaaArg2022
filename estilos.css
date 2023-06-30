@@ -63,6 +63,8 @@ header{
     justify-content: center;
     align-items: center;
     position: relative;
+    border-color: #0984CC;
+    border-radius: 15px;
 }
 
 .menu-select:before{
