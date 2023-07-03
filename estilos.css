@@ -213,11 +213,22 @@ ul.tabs li a .tab-text{
 }
 
 .secciones article{
+    background-color: #0984CC;
+    color: white;
+    border: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
 	padding: 30px;
 }
 
 .secciones article p{
 	text-align: justify;
+    padding-bottom: 3px;
+    text-indent: 40px;
+}
+
+.secciones article div{
+    padding-bottom: 4px;
 }
 
 
@@ -241,4 +252,8 @@ ul.tabs li a .tab-text{
 	.secciones article{
 		padding: 20px;
 	}
+}
+
+article{
+
 }
