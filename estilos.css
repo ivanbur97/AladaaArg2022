@@ -175,8 +175,8 @@ header{
 	margin: 20px auto;
     display: flex;
     border-radius: 20px;
-
 }
+
 
 ul.tabs{
 	width: 20%;
@@ -221,11 +221,7 @@ ul.tabs li a .tab-text{
 	padding: 30px;
 }
 
-.secciones article p{
-	text-align: justify;
-    padding-bottom: 3px;
-    text-indent: 30px;
-}
+
 
 .secciones article div{
     padding-bottom: 4px;
@@ -254,3 +250,16 @@ ul.tabs li a .tab-text{
 	}
 }
 
+.Documento{
+    margin: 5px;
+}
+
+.autor-pagina{
+    display: flex;
+    text-align:end;
+}
+
+h3{
+    color: white;
+    list-style: none;
+}
