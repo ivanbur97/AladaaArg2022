@@ -254,6 +254,9 @@ ul.tabs li a .tab-text{
     margin: 5px;
 }
 
+p{
+    text-indent: 1.2em
+}
 
 h3{
     color: white;
